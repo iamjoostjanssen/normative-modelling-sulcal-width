@@ -1,5 +1,12 @@
-HC_file <- '/home/jjanssen/planU/norm_age_model/marquand/anouck/pbsi/HC_1_width_matched.csv'
-PT_file <- '/home/jjanssen/planU/norm_age_model/marquand/anouck/pbsi/PT_1_width_matched.csv'
+#Adapated from:
+#Doucet GE, Moser DA, Rodrigue A, Bassett DS, Glahn DC, Frangou S (2019): Person-Based Brain Morphometric
+#Similarity is Heritable and Correlates With Biological Features. Cereb Cortex 1991 29: 852–862.
+
+#HC control
+#PT patient
+
+HC_file <- '/PATH/TO/HC.csv'
+PT_file <- '/PATH/TO/PT.csv'
 
 # 1. Calculate PBSI_HC --------------
 M_HC <- read.csv(HC_file, header = F)
